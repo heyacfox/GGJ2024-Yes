@@ -67,7 +67,8 @@ public class PlayDialogueSequence : MonoBehaviour
         //playerResponses = new ResponseType[clips.Length];
         playerResponses = new ResponseType[dialogueLines.Length];
         speaker = GetComponent<TTSSpeaker>();
-        
+        grandpaImage.sprite = normalgrandpa;
+
     }
     private IEnumerator PlaySequence()
     {
@@ -89,10 +90,11 @@ public class PlayDialogueSequence : MonoBehaviour
             {
                 speaker.characteristics.Speed = standardSpeed;
             }
-            
+
 
 
             //TTS.SayAsync(dialogueLines[currentClipIndex], speaker);
+            grandpaImage.sprite = happygrandpa;
             if (useTTS)
             {
                 TTS.Say(dialogueLines[currentClipIndex], speaker);
@@ -244,7 +246,7 @@ public class PlayDialogueSequence : MonoBehaviour
                 primaryAudioSource.clip = superWinClip;
                 primaryAudioSource.Play();
             }
-            grandpaImage.sprite = normalgrandpa;
+            grandpaImage.sprite = happygrandpa;
             subtitleText.text = response;
             Invoke("readyToPlayAgain", 10);
         }
