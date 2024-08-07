@@ -98,15 +98,18 @@ public class PlayDialogueSequence : MonoBehaviour
             if (useTTS)
             {
                 TTS.Say(dialogueLines[currentClipIndex], speaker);
+                subtitleText.text = dialogueLines[currentClipIndex];
             } else
             {
                 primaryAudioSource.clip = clips[currentClipIndex];
                 primaryAudioSource.Play();
+                subtitleText.text = dialogueLines[currentClipIndex];
                 yield return new WaitForSeconds(primaryAudioSource.clip.length);
+                
             }
 
 
-            subtitleText.text = dialogueLines[currentClipIndex];
+            
             yield return new WaitForSeconds(0.5f);
             while (primaryAudioSource.isPlaying)
             {
