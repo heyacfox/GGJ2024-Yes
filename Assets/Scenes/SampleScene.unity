@@ -1305,8 +1305,38 @@ MonoBehaviour:
   yesExcitedAudioSource: {fileID: 63457111}
   yesQuestionAudioSource: {fileID: 293290766}
   clips:
-  - {fileID: 8300000, guid: 261e5168ee8ed754b8a88f26baa4e7c0, type: 3}
-  - {fileID: 8300000, guid: 1973113e0aa42054097c1b103b5eba7b, type: 3}
+  - {fileID: 8300000, guid: 6bc46ecc17365d341a5d925e0a3fa7ed, type: 3}
+  - {fileID: 8300000, guid: 6fe957d410512594baaca13872aa9129, type: 3}
+  - {fileID: 8300000, guid: e32c8ae0350caef48a1824f8ddbe3ef4, type: 3}
+  - {fileID: 8300000, guid: 49f1b29886013ba43ac69fae9f0cd440, type: 3}
+  - {fileID: 8300000, guid: 4999f7cab458d8a4d9eb0134751f60ab, type: 3}
+  - {fileID: 8300000, guid: 5a93504199365bf4cbf16eba00205800, type: 3}
+  - {fileID: 8300000, guid: b778c8875c1c48d4d870807f744e57e5, type: 3}
+  - {fileID: 8300000, guid: fb8beee33396bda4d8cddb8231cacb12, type: 3}
+  - {fileID: 8300000, guid: 0b297d71431c5d24f93b206ae29c3736, type: 3}
+  - {fileID: 8300000, guid: 4d06708e6f0dfce4f90fa261f211fa37, type: 3}
+  - {fileID: 8300000, guid: 78e4c47c110c42f42bff92007ed3535b, type: 3}
+  - {fileID: 8300000, guid: 2b05ac7b1881cbb4eb951292e6afd082, type: 3}
+  - {fileID: 8300000, guid: 20e43052a9d25674da92f12b6f005c9a, type: 3}
+  - {fileID: 8300000, guid: 34b5e08c82640424a86aa031c8d3844c, type: 3}
+  - {fileID: 8300000, guid: e76ad1772cb2d7045ab66f8f51bd2955, type: 3}
+  - {fileID: 8300000, guid: 02a73173554ed234882af4b34502d673, type: 3}
+  - {fileID: 8300000, guid: fc73b16d613ce9749a4a3df68fd19dba, type: 3}
+  - {fileID: 8300000, guid: f0fe257b63e443d4994aaa91e355f84b, type: 3}
+  - {fileID: 8300000, guid: 869199ed7c530f64ea88d3afe059e29d, type: 3}
+  - {fileID: 8300000, guid: 2941c5522a9899c4b9e36c98fbbb557b, type: 3}
+  - {fileID: 8300000, guid: c00aae95b9224ab46af470ba01f7131d, type: 3}
+  - {fileID: 8300000, guid: b33777a871072084dbd4151e7dfb5ce2, type: 3}
+  - {fileID: 8300000, guid: ff24b42da6f48804a98571b4878ba55e, type: 3}
+  - {fileID: 8300000, guid: adb5bfc47ea3d1e4f9c002577ebc806b, type: 3}
+  - {fileID: 8300000, guid: e2eaf51f25ddf114e92be8378c2016bb, type: 3}
+  - {fileID: 8300000, guid: 62e3539b9daaba7458ce0b92460a14e3, type: 3}
+  - {fileID: 8300000, guid: 6f42173e9c443494b8fcd17fc4dbbd6a, type: 3}
+  - {fileID: 8300000, guid: 8e88e69fc028d34448cdff29b8958925, type: 3}
+  - {fileID: 8300000, guid: 8ebe6018d4f18a64bbfe353c769586ef, type: 3}
+  - {fileID: 8300000, guid: 46295a4aaab773b4da27234d852787ab, type: 3}
+  - {fileID: 8300000, guid: 1a96e4e7744d5814bad52ce24235918e, type: 3}
+  - {fileID: 8300000, guid: a8ee80ab5409ca243a2b7a433ac0e937, type: 3}
   dialogueLines:
   - Hello, how are you doing, I will tell you a story
   - This story is one about magic.
@@ -1373,7 +1403,7 @@ MonoBehaviour:
   - Stop!
   - So rude!
   randomInterruptClips: []
-  useTTS: 1
+  useTTS: 0
   grandpaImage: {fileID: 281655170}
   interruptCounter: 0
   countForInterruptSlowdown: 5
